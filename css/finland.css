@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#allt {
+    height: auto;
+}
+p{
+    font-size: 110%;
+}
+#bakgrund {
+    width: 100vw;
+    height: auto;
+    margin-top: -0.5vh;
+    background-color: cornflowerblue;
+    background-image: url(../img/finlandSolnedgangKlippt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#main, #mainSverige, #mainKultur, #mainSpråk, #mainKarta{
+    background-color: #f2f2f2;
+    width: 70vw;
+    margin: 0 15vw;
+    box-shadow: 0 20px 30px;
+    padding-bottom: 10vh;
+}
+[alt="finska flaggan" ] {
+    width: 14vw;
+    float: left;
+    margin: 1vh 1vh 1vh 6vw;
+    border: solid 1px #003580;
+}
+#topbar {
+    display: inline-block;
+    width: 100%;
+    height: 19vh;
+    padding-bottom: 2vh;
+    background-color: aliceblue;
+    box-shadow: 0 0 35px gray;
+    z-index: -1;
+    position: relative;
+}
+#topbar hr {
+    margin-top: -2vh;
+}
+#navbar {
+    border: solid 1px gray;
+    background-color: #4a69b9;
+    color: white;
+    height: 7vh;
+    font-size: 200%;
+    margin: 0 6vw;
+    z-index: 200;
+}
+#navbar td{
+    margin: 0 5.9vw;
+    display: inline-block;
+}
+#Finland {
+    font-size: 700%;
+    color: #003580;
+    margin: 4.5vh 0 0;
+}
+.textruta {
+    width: 56vw;
+    height: auto;
+    margin: 0 7vw;
+    padding-bottom: 2vh;
+}
+.textruta p {
+    font-size: 110%;
+}
+#navbar a {
+    color: #f2f2f2;
+}
+a:hover {
+    filter:brightness(85%);
+}
+.textruta h2 {
+    font-size: 200%;
+    padding-top: 6vh;
+}
+.textruta hr {
+    width: 20vw;
+    margin: 1vh 0;
+    border: solid 1px black;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+}
+#pLandskap {
+    float: left;
+    width: 35vw;
+}
+#divLandskap {
+    width: 40vw;
+    height: auto;
+}
+
+#topbar hr {
+    border: solid 1px #003580;
+}
+
+/*sidebar*/
+#sidebarmenu , #sidebarmenuSprak, #sidebarmenuKultur{
+    float: left;
+    width: 15vw;
+    height: 150vh;
+    background-color: #4a69b9;
+    color: white;
+    box-shadow: 10px 10px 40px -3px black;
+}
+#sidebarmenu table, #sidebarmenuSprak table, #sidebarmenuKultur table{
+    width: 15vw;
+    height: auto;
+    color: white;
+}
+#sidebarmenu td, #sidebarmenuSprak td, #sidebarmenuKultur td{
+    font-size: 230%;
+    color: white;
+    text-align: center;
+    border-bottom: solid 2px lightblue;
+    padding: 3vh 0;
+}
+.sidebarLink {
+    text-decoration: none;
+    color: white;
+}
+#sidebar {
+    width: 21vw;
+    height: auto;
+    color: white;
+    margin-left: -15vw;
+    margin-top: -2.5vh;
+    left: 0px;
+    top: 21.3vh;
+    position: absolute;
+}
+#sidebar:hover {
+    margin-left: 0;
+}
+#sidebarbutton {
+    background-color: #4a69b9;
+    height: 7vh;
+    width: 6vw;
+    color: ghostwhite;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    margin-left: -1vw;
+    box-shadow: 15px 5px 40px -5px black;
+}
+
+/*finlandSverige.html*/
+
+#mainSverige h1 {
+    display: inline-block;
+    margin: 10vh 0 0 7vw ;
+    width: auto;
+    font-size: 300%;
+}
+h1 hr {
+    border: solid 2px black;
+}
+#mainSverige {
+    position: inherit
+    height: auto;
+    padding-bottom: 13vh;
+}
+[alt="karta över finland/sverige"] {
+    width: 25vw;
+    height: 33svh;
+    border: 2px solid gray;
+    margin: 3vh 0 0 3vw;
+}
+#divHistoria{
+    height: 70vh;
+}
+.pHistoria {
+    width: 30vw;
+    float: left;
+}
+#divHistoria {
+    width: 60vw;
+}
+#länkTillSpråk {
+    color: blue;
+}
+
+
+/*finlandKultur.html*/
+
+.textrutaKultur {
+    margin: 5vh 0 0 7vw;
+    width: 35vw;
+}
+.textrutaKultur p {
+    font-size: 110%;
+}
+.textrutaKultur h2 {
+    font-size: 200%;
+    width: 30vw;
+}
+#sidp {
+    width: 18vw;
+    float: left;
+}
+[alt="finska folkdräkter"] {
+    width: 15vw;
+    margin: 0 0 2vh 1vw;
+    border: 2px solid gray;
+}
+#mainKultur {
+    position: inherit;
+    padding-bottom: 8vh;
+}
+#mainKultur h1{
+    display: inline-block;
+    margin: 10vh 0 0 7vw;
+    width: auto;
+    font-size: 300%;
+}
+#vänsterSpaltKultur {
+    width: 37vw;
+    float: left;
+    padding-bottom: 5vh;
+}
+.musikRutaKultur {
+    margin: 5vh 0 0 7vw;
+    width: 23vw;
+}
+#högerSpaltKultur {
+    width: 20vw;
+    display: inline-block;
+    padding-bottom: 5vh;
+}
+audio {
+    filter: brightness(95%);
+    margin-top: 2vh;
+}
+#sidebarmenuKultur{
+    height: 165.7vh;
+}
+
+/*finlandSpråk.html*/
+
+#mainSpråk h1 {
+    display: inline-block;
+    margin: 10vh 0 0 7vw;
+    width: auto;
+    font-size: 300%;
+}
+.videoRuta {
+    margin: 7vh 0 2vh 7vw;
+    width: 60vw; 
+    font-size: 140%;
+}
+.videoRuta h2 {
+    font-size: 200%;
+    margin-bottom: 1vh;
+}
+.videoRuta p {
+    font-size: 110%;
+}
+#mainSpråk iframe {
+    width: 40vw; 
+    height: 45vh;
+    border: solid 3px gray;
+    float: left;
+    margin-right: 2vw;
+}
+#sidebarmenuSprak{
+    height: 182vh;
+}
+/*Karta.hmtl*/
+
+#mainKarta{
+    height: 81vh;
+    padding-bottom: 0;
+}
+#mainKarta h1 {
+    text-align: center;
+    width: auto;
+    font-size: 200%;
+    padding: 2vh 0 0.5vh;
+}
+#sidebarmenuMap {
+    float: left;
+    width: 15vw;
+    height: 81vh;
+    background-color: #4a69b9;
+    color: white;
+}
+#sidebarmenuMap table{
+    width: 15vw;
+    height: auto;
+    color: white;
+}
+#sidebarmenuMap td {
+    font-size: 230%;
+    color: white;
+    text-align: center;
+    border-bottom: solid 2px lightblue;
+    padding: 3vh 0;
+}
+#karta {
+    margin: 0 3.7vw;
+    display: block;
+}
+
+/* Slideshow box */
+
+/* Slideshow container */
+.slideshow-container {
+    width: 23vw;
+    margin-left: 37vw;
+    position: relative;
+    border: solid 1.5px gray;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+#mySlides1 {
+    display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#dots {
+    text-align:center;
+    margin-left: 37vw;
+    width: 23vw;
+    margin-top: -3vh;
+    padding: 1.5vh 0;
+    background-color: #f2f2f2;
+    filter: brightness(85%);
+    border: solid 1.5px gray;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
