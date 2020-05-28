@@ -231,7 +231,7 @@ h1 hr {
     padding-bottom: 5vh;
 }
 .musikRutaKultur {
-    margin: 5vh 0 0 7vw;
+    margin: 3vh 0 0 7vw;
     width: 23vw;
 }
 #högerSpaltKultur {
@@ -239,9 +239,10 @@ h1 hr {
     display: inline-block;
     padding-bottom: 5vh;
 }
-audio {
+audio, .ljudruta {
     filter: brightness(95%);
     margin-top: 2vh;
+    border: solid 2px gray;
 }
 #sidebarmenuKultur{
     height: 165.7vh;
